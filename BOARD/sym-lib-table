@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "sddrive-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/sddrive-eagle-import.kicad_sym")(options "")(descr ""))
+)
