@@ -4,5 +4,5 @@ La variante SDCART consiste nell'utilizzo dello slot della cartuccia invece che 
 ![Case](IMAGES/SDCART%20v1.png)</br>
 La micro SD può essere formattata FAT o FAT32. Il limite di capacità è di 32 GByte. Dopo la formattazione deve essere copiato SDDRIVE.SEL come primo file. Successivamente si possono copiare le immagini dei floppy con estensione .SD. Ogni files .SD contiene l'immagine di quattro floppy virtuali da 360Kb, accessibili da BASIC come device da 0 a 3.
 Il file immagine è selezionabile tramite un programma SDDRIVE.SEL che si avvia alla selezione del BASIC128 o BASIC1.0 del MENU principale del PC128.
-![Case](IMAGES/menu.png)
-![Case](IMAGES/sddrivesel.png)
+<img src="IMAGES/menu.png" width="100">
+<img src="IMAGES/SDDRIVESEL.png" width="100">
