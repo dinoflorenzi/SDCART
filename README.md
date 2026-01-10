@@ -1,5 +1,5 @@
 # SDCART
-Interfaccia per il caricamento programmi da micro SD. Il progetto deriva dal progetto SDDRIVE di Deniel Coloumn (http://dcmoto.free.fr/bricolage/sddrive/index_v2.html) a cui spettano tutti i meriti di sviluppo hardware e software. Il driver ed il software di gestione 
+Interfaccia per il caricamento programmi da micro SD. Il progetto deriva dal progetto SDDRIVE di Deniel Coloumn (http://dcmoto.free.fr/bricolage/sddrive/index_v2.html) a cui spettano tutti i meriti di sviluppo hardware e software il driver ed il software di gestione. 
 La variante SDCART consiste nell'utilizzo dello slot della cartuccia invece che lo slot di espanzione e l'utilizzo di memorie eeprom AT28C64/256 che danno la possibilità di aggiornare il software direttamente da PC128.</br>
 ![Case](IMAGES/SDCART%20v1.png)</br>
 La micro SD può essere formattata FAT o FAT32 utilizzando il massimo spazio di allocazione. Il limite di capacità è di 32 GByte. Dopo la formattazione deve essere copiato SDDRIVE.SEL come primo file. Successivamente si possono copiare le immagini dei floppy con estensione .SD. Ogni files .SD contiene l'immagine di due floppy virtuali da 360Kb, accessibili da BASIC come device da 0 a 3.
